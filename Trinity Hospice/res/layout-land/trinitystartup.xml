@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF" >
+    <ImageView android:layout_height="wrap_content" android:layout_marginTop="0px" android:layout_marginLeft="10px" android:id="@+id/banner" android:layout_width="wrap_content" android:layout_marginRight="10px" android:src="@drawable/banner1" android:layout_marginBottom="10px" android:layout_alignParentRight="true"></ImageView>
+    <ImageView android:layout_height="wrap_content" android:id="@+id/trinitylogo" android:layout_width="wrap_content" android:layout_margin="10px" android:src="@drawable/trinitylogo" android:layout_alignParentLeft="true"></ImageView>
+    <ImageButton android:layout_height="wrap_content" android:id="@+id/campaign" android:layout_marginLeft="30px" android:layout_width="wrap_content" android:src="@drawable/chick" android:layout_below="@+id/trinitylogo" android:layout_alignLeft="@+id/trinitylogo"></ImageButton>
+    <ImageButton android:layout_height="wrap_content" android:id="@+id/btnWebsite" android:layout_width="wrap_content" android:src="@drawable/map" android:layout_marginRight="35px" android:layout_toRightOf="@+id/campaign" android:layout_alignBottom="@+id/campaign"></ImageButton>
+    <ImageButton android:layout_height="wrap_content" android:layout_marginTop="10px" android:id="@+id/btnMap" android:layout_width="wrap_content" android:src="@drawable/map" android:layout_toRightOf="@+id/btnWebsite" android:layout_alignTop="@+id/btnWebsite" android:layout_alignBottom="@+id/btnWebsite"></ImageButton>
+    <ImageButton android:layout_height="wrap_content" android:id="@+id/btnDonate" android:layout_width="wrap_content" android:src="@drawable/donate" android:layout_marginRight="30px" android:layout_toRightOf="@+id/campaign" android:layout_alignTop="@+id/campaign"></ImageButton>
+    <ImageButton android:layout_height="wrap_content" android:layout_marginTop="10px" android:id="@+id/btnServices" android:layout_width="wrap_content" android:src="@drawable/services" android:layout_toRightOf="@+id/btnDonate" android:layout_alignTop="@+id/btnDonate" android:layout_alignBottom="@+id/btnDonate"></ImageButton>
+  
+</RelativeLayout>

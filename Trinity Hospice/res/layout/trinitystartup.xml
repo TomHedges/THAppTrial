@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFFFF" >
+
+    <ImageView
+        android:id="@+id/trinitylogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/TrinityHospice"
+        android:src="@drawable/trinitylogo" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/trinitylogo"
+        android:layout_below="@+id/trinitylogo"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:contentDescription="@string/TrinityHospice"
+        android:src="@drawable/banner1" >
+
+    </ImageView>
+
+    <ImageButton
+        android:id="@+id/btnCampaign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/banner"
+        android:layout_below="@+id/banner"
+        android:layout_marginLeft="18dp"
+        android:minHeight="190dp"
+        android:minWidth="125dp"
+        android:contentDescription="@string/TrinityHospice"
+        android:src="@drawable/chick" />
+
+    <ImageButton
+        android:id="@+id/btnDonate"
+        android:minWidth="125dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnCampaign"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/btnCampaign"
+        android:contentDescription="@string/TrinityHospice"
+        android:src="@drawable/donate" />
+
+    <ImageButton
+        android:id="@+id/btnServices"
+        android:minWidth="125dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnCampaign"
+        android:layout_alignLeft="@+id/btnDonate"
+        android:contentDescription="@string/TrinityHospice"
+        android:src="@drawable/services" />
+
+    <ImageButton
+        android:id="@+id/btnMap"
+        android:minWidth="125dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnServices"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/TrinityHospice"
+        android:src="@drawable/map" />
+
+    <ImageButton
+        android:id="@+id/btnWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCampaign"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/TrinityHospice"
+        android:minWidth="125dp"
+        android:src="@drawable/website" />
+
+    <Button
+        android:id="@+id/btnTwitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="TWITTER" />
+
+</RelativeLayout>

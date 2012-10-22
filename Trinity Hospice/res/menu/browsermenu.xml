@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/BrowserBack"
+          android:title="@string/BrowserBack" />
+    <item android:id="@+id/BrowserOpen"
+          android:title="@string/BrowserOpen" />
+</menu>

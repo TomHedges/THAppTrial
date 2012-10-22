@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Trinity Hospice</string>
+    <string name="TrinityHospice">Trinity Hospice</string>
+    <string name="BrowserBack">Go Back to Home Screen</string>
+    <string name="BrowserOpen">Open this page in your usual internet browser</string>
+</resources>
